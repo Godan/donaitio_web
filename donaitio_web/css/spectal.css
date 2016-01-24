@@ -1,0 +1,50 @@
+div.top1 img {
+    clip: rect(100px, 100px, 100px, 100px);
+}
+
+/* 必須のスタイル指定(affix用) */
+.algo13-sidebar.affix {
+    position: fixed;
+    top: 20px;
+}
+
+/* 必須のスタイル指定(affix用) */
+.algo13-sidebar.affix-bottom {
+    position: absolute;
+}
+
+/* サブセクションのスタイル(scrollspy用) */
+.algo13-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+
+}
+/* アクティブセクションを赤太字にする(scrollspy用) */
+.algo13-sidebar .nav>.active:focus>a,
+.algo13-sidebar .nav>.active:hover>a,
+.algo13-sidebar .nav>.active>a {
+    font-weight: 700;
+    color: red;
+}
+/* サブセクションのスタ
+/* 非アクティブのサブセクションを隠す(scrollspy用) */
+.algo13-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px
+}
+
+/* アクティブのサブセクションを表示(scrollspy用) */
+.algo13-sidebar .nav > .active > ul {
+    display: block
+}
+
+/* テストのための高さスタイル */
+.algo13-moderate-height {
+    line-height: 100px;
+    outline: 1px solid blue;
+}
+.display{
+    height: 100vh;
+    padding-top: 70px;
+}
